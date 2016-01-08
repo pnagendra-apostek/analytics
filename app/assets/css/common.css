@@ -1,0 +1,11 @@
+/* line 6, ../sass/common.scss */
+.analytics .cont {
+  font-size: 12px;
+}
+
+@media screen and (max-width: 768px) {
+  /* line 14, ../sass/common.scss */
+  .analytics .cont {
+    font-size: 12px;
+  }
+}

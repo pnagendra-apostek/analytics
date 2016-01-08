@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="analyticsApp">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Analytics</title>
+    <!-- Custom styles for this template --> 
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css"/>  
+    <link rel="stylesheet" href="assets/css/common.css"> 
+  </head> 
+  <body> 
+    <nav class="navbar navbar-inverse">
+      <div class="container">
+        <div class="navbar-header"><h4>Analytics</h4>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container"> 
+      <div ng-view></div>  
+	  
+	  <div ng-controller="AnalyticsMainCtrl">{{title}}</div>
+    </div><!-- /.container --> 
+
+    <div class="footer">
+      <div class="footer-cont">  Analytics Footer</div>
+    </div>
+ 
+    <script src="bower_components/jquery/dist/jquery.min.js"></script> 
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="bower_components/angular/angular.js"></script>
+    <script src="bower_components/angular-route/angular-route.js"></script> 
+    <script src="js/app.js"></script> 
+    <script src="js/analyticsMainCtrl.js"></script>
+  </body>
+</html>

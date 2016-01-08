@@ -1,0 +1,18 @@
+@import 'compass/css3';
+$break-small: 768px;
+$break-medium: 992px;
+ 
+.analytics{
+	.cont{
+          font-size:12px;
+	}	
+}
+
+
+@media screen and (max-width: $break-small) { 
+	.analytics{
+		.cont{
+		  font-size:12px;
+		}	
+	}
+  }
